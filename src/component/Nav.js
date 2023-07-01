@@ -1,4 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.min.css';  
+//import 'bootstrap/dist/css/bootstrap.min.css';  
 import {Nav, Navbar, Container} from 'react-bootstrap';  
 function Nav1(props) {  
   return (  
