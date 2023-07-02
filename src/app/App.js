@@ -1,7 +1,8 @@
 import { Display, Log} from "../component/Add";
 import Navbar from "../component/Nav";
 import Profile from "../component/Profile";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
+
 function App() {
   return (
     <>
