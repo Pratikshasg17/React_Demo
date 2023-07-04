@@ -1,6 +1,6 @@
 import { Nav, Navbar, Container } from "react-bootstrap";
 
-function Header() {
+export default function Header() {
   return (
     <div class="topnav">
       <Navbar bg="primary" expand="md">
@@ -20,4 +20,4 @@ function Header() {
     </div>
   );
 }
-export default Header;
+

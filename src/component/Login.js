@@ -1,8 +1,8 @@
 import React from "react";
-import Form from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
 
-function Login() {
+import { Form, Button } from "react-bootstrap"
+
+export default function Login() {
   return (
     <>
       <div className="container text-center mt-5">
@@ -30,4 +30,3 @@ function Login() {
     </>
   );
 }
-export { Login };
