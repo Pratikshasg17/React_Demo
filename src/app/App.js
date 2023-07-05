@@ -5,8 +5,8 @@ import Login  from "../component/Login";
 import Header from "../component/Header";
 import Home from "../component/Home";
 import About from "../component/About";
-import Contact from "../component/Contact";
 import SignUp from "../component/Signup";
+import Contact from "../component/Contact";
 
 import "./App.css";
 
