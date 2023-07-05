@@ -7,6 +7,7 @@ import Home from "../component/Home";
 import About from "../component/About";
 import Contact from "../component/Contact";
 import SignUp from "../component/Signup";
+
 import "./App.css";
 
 export default function App() {
