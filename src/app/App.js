@@ -1,15 +1,30 @@
-import { Display, Log} from "../component/Add";
-import Navbar from "../component/Nav";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import Login  from "../component/Login";
+import Header from "../component/Header";
+import Home from "../component/Home";
+import About from "../component/About";
+import SignUp from "../component/Signup";
+import Contact from "../component/Contact";
 
-function App() {
+import "./App.css";
+
+export default function App() {
   return (
     <>
-      <Navbar title="Student Management" />
-      <Display/> 
-      <Log/>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/signup" element={<SignUp />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
 
-export default App;
+
