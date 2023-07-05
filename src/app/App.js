@@ -10,7 +10,7 @@ import SignUp from "../component/Signup";
 
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <>
       <BrowserRouter>
@@ -27,4 +27,4 @@ function App() {
   );
 }
 
-export default App;
+
