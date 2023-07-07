@@ -7,9 +7,10 @@ import Home from "../component/Home";
 import About from "../component/About";
 import SignUp from "../component/Signup";
 import Contact from "../component/Contact";
+import Lifecycle from "../component/Lifecycle";
 
 import "./App.css";
-import Lifecycle from "../component/Lifecycle";
+
 
 export default function App() {
   return (
