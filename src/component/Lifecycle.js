@@ -1,27 +1,33 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-import Counter from './Counter'
+import Counter from "./Counter";
 
 export default class Lifecycle extends Component {
-    constructor(){
-        super();
-        this.state ={
-            count:0
-        }
-    }
+  constructor() {
+    super();
+    this.state = {
+      count: 0,
+    };
+  }
 
-    increment(){
-        this.setState({count:this.state.count+1})
-    }
-    componentDidMount(){
-        console.log("When component render first time");
-    }
+  increment() {
+    this.setState({ count: this.state.count + 1 });
+  }
+  componentDidMount() {
+    console.log("When component render first time");
+  }
   render() {
     return (
       <div>
         <Counter number={this.state.count}></Counter>
-        <button onClick={()=>{this.increment()}}>Click Me</button>
+        <button
+          onClick={() => {
+            this.increment();
+          }}
+        >
+          Click Me
+        </button>
       </div>
-    )
+    );
   }
 }
