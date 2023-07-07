@@ -9,6 +9,9 @@ import SignUp from "../component/Signup";
 import Contact from "../component/Contact";
 
 import "./App.css";
+import Lifecycle from "../component/Lifecycle";
+
+
 
 export default function App() {
   return (
@@ -21,6 +24,8 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/signup" element={<SignUp />} />
+          <Route path="/life" element={<Lifecycle />} />
+          
         </Routes>
       </BrowserRouter>
     </>
